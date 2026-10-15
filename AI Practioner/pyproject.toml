@@ -1,0 +1,16 @@
+[project]
+name = "actiontrack"
+version = "0.1.0"
+description = "Track meeting action items from Markdown notes"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+actiontrack = "actiontrack:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["actiontrack"]
